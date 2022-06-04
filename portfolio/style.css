@@ -1,0 +1,54 @@
+.jumbotron {
+    background-image: url(mobile.png);
+    background-position: -80px -220px;
+    background-size: auto;
+    background-repeat: repeat-y;
+    height: 330px;
+    overflow: hidden;
+}
+
+.jumbotron img {
+    width: 200px;
+    border: 2px solid black;
+    opacity: 0.9;
+    margin-top: 50px;
+}
+
+
+.about hr {
+    width: 200px;
+    border: 4 solid black;
+}
+
+
+.buat {
+    animation: buat 3s;
+}
+
+@keyframes buat {
+    0% {
+        font-size: 3px;
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        font-size: 12px;
+        opacity: 1;
+    }
+
+}
+
+span {
+    display: inline-block;
+    transition: 1s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+span:hover {
+    transform: scale(2) translateY(10px);
+
+}
